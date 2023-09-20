@@ -1,1 +1,53 @@
+.container{
+    width: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.App{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .btn{
+    width:100px;
+    height: 50px;
+    background-color: blue;
+ }
 
+    .h-detail{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:10px;
+    }
+    table, th, td {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse; /* This property removes spacing between table cells */
+        width: 100%; /* Set the table width to 100% or a specific width */
+        border: 1px solid #000; /* Add a border around the entire table */
+      }
+      
+      /* Style for table headers (column headers) */
+      th {
+        width: 700px;
+        border: 1px solid #fff; /* Add borders to table headers */
+        padding: 8px; /* Add padding for better spacing */
+        text-align: left; 
+        background-color: #000;
+        color: #fff;/* Optionally align the text within headers */
+      }
+      
+      /* Style for table data cells */
+      td {
+        border: 1px solid #000; /* Add borders to table data cells */
+        padding: 8px; /* Add padding for better spacing */
+        text-align: left; /* Optionally align the text within cells */
+      }
