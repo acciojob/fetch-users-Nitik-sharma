@@ -35,7 +35,7 @@ const App = () => {
                   <td>{item.first_name}</td>
                   <td>{item.last_name}</td>
                   <td>{item.email}</td>
-                  <td>{item.avatar}</td>
+                  <td><img src={item.avatar} className="img"/></td>
                 </tr>
               )):<h1>No Data here !!</h1>}
             </tbody>
