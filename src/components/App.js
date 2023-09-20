@@ -30,14 +30,14 @@ const App = () => {
               </tr>
             </thead>
             <tbody>
-              {detail?detail.map((item) => (
+              {detail.length>0?detail.map((item) => (
                 <tr key={item.id}>
                   <td>{item.first_name}</td>
                   <td>{item.last_name}</td>
                   <td>{item.email}</td>
                   <td><img src={item.avatar} className="img"/></td>
                 </tr>
-              )):<h1>No Data here !!</h1>}
+              )):<p className="error">No data found to display </p>}
             </tbody>
           </table>
         </div>
