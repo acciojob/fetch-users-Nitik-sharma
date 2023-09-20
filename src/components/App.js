@@ -37,7 +37,7 @@ const App = () => {
                   <td>{item.email}</td>
                   <td><img src={item.avatar} className="img"/></td>
                 </tr>
-              )):<p className="error">No data found to display </p>}
+              )):<p className="error">No data found to display. </p>}
             </tbody>
           </table>
         </div>
